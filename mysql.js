@@ -3,7 +3,7 @@
  * @author David Spreekmeester <david@grrr.nl>
  */
 
-const mysql     = require('mysql2')
+const mysql     = require('mysql2/promise')
 const Client    = require('ssh2').Client;
 
 var tunnel = module.exports = {
